@@ -1,0 +1,93 @@
+ 	
+ 
+
+
+
+
+/*************** Testimonials ***************/
+
+.testimonial-section {
+    background: Url(../images/parallax/testimonial-bg.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: #fff;
+	text-align: center;
+	position: relative;
+}
+
+.testimonials .testimonial-content img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+
+
+.testimonials .testimonial-content p {
+	font-size: 20px;
+	line-height: 30px;
+	//font-style: italic;
+	font-weight: 400;
+    margin-bottom: 40px;
+	color: #fff;
+}
+
+.testimonials .testimonial-content {
+	position: relative;
+}
+
+.testimonials .testimonial-author {
+	margin-bottom: 40px;
+}
+
+.testimonials .testimonial-author .author {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.testimonials .testimonial-author .designation {
+    color: #d3d3d3;
+}
+
+.touch-slider .owl-controls.clickable .owl-buttons div:hover {
+	//background-color: #00afd1;
+}
+
+.touch-carousel .owl-controls.clickable .owl-buttons div:hover {
+	//background-color: #00afd1;
+}
+
+.testimonials-carousel .owl-controls.clickable .owl-buttons div{
+    background: none;
+    font-size: 40px;
+}
+
+.testimonials-carousel .owl-controls.clickable .owl-buttons .owl-next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 1000;
+}
+
+.testimonials-carousel .owl-controls.clickable .owl-buttons .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 1000;
+}
+
+.owl-theme .owl-controls .owl-page.active{
+    padding: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.owl-theme .owl-controls .owl-page.active span {
+    background: #fff;
+}
+
+
