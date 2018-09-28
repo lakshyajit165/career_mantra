@@ -24,15 +24,18 @@
 				<span class="font-weight-bold">Us</span>
 			</h3>
     <div class="row">
+    	<div class="{{val}}" role="alert">
+		  {{msg}}
+		</div>
         <div class="col-lg-10 mx-auto" >
             <div class="well well-sm register-form">
-                <form>
+                <form method = "POST" action = "send">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
                                 Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" name="name"/>
                         </div>
                         <div class="form-group">
                             <label for="email">
@@ -40,7 +43,7 @@
                             <div class="input-group">
                                	
                                 
-                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" name="email"/></div>
                         </div>
                         <div class="form-group">
                           	<label for="email">
@@ -48,7 +51,7 @@
                             <div class="input-group">
                                	
                                 
-                                <input type="text" class="form-control" id="email" placeholder="Enter Contact No" required="required" /></div>
+                                <input type="text" class="form-control" id="email" placeholder="Enter Contact No" required="required" name="phone"/></div>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -56,7 +59,7 @@
                             <label for="name">
                                 Message</label>
                             <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                placeholder="Message" style="background: transparent;"></textarea>
+                                placeholder="Message" id="message" style="background: transparent;"></textarea>
                         </div>
                     </div>
                     <div class="col-md-12">
