@@ -3,7 +3,7 @@ const exphbs  = require('express-handlebars');
 const path = require('path');
 const app = express();
 const bodyParser = require('body-parser');
-const path = require('path');
+
 const nodemailer = require('nodemailer');
 
 //Body parser middleware
