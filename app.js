@@ -100,12 +100,12 @@ app.post('/send', (req,res) => {
 
         	// create reusable transporter object using the default SMTP transport
             let transporter = nodemailer.createTransport({
-                host: 'smtp.stackmail.com', //'smtp.ethereal.email',
+                host: 'smtp.gmail.com', //'smtp.ethereal.email',
                 port: 587,//587,
                 secure: false, // true for 465, false for other ports
                 auth: {
-                    user: 'contact@iamlakshyajit.in', // generated ethereal user
-                    pass: 'gagool123'//account.pass ''// generated ethereal password
+                    user: 'lakshmeekant@gmail.com', // generated ethereal user
+                    pass: 'lcxlzbdxwsvdcwno'//account.pass ''// generated ethereal password
                 },
                 tls:{
                 	rejectUnauthorized: false
@@ -114,7 +114,7 @@ app.post('/send', (req,res) => {
 
             // setup email data with unicode symbols
             let mailOptions = {
-                from: '"<careermantra.net.in>', // sender address
+                from: '<careermantra.net.in>', // sender address
                 to: 'info@careermantra.net.in', // list of receivers
                 subject: 'New Message', // Subject line
                 text: 'Hello world?', // plain text body
