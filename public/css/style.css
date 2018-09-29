@@ -367,8 +367,21 @@ a:hover {
     background-attachment: fixed;
     min-height: 360px;
 }
+
+/*Custom Speed*/
+.banner-speed{
+     background: url(../images/speed.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    min-height: 360px;
+}
 /*Custom Contact Us*/
-/*Test*/
+
+/*CMPT Page*/
 .serviceBox{
     padding: 35px 20px 35px 90px;
     position: relative;
@@ -454,6 +467,9 @@ a:hover {
 @media only screen and (max-width:480px){
     .serviceBox .service-icon{ top: 40px; }
 }
+/*End of CMPT Page*/
+
+
 .nav-link.active {
     font-weight:bold;
     background-color: transparent;

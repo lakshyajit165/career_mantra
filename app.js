@@ -81,6 +81,10 @@ app.get('/contact' ,(req,res) => {
 	res.render('contact');
 });
 
+//SPEED
+app.get('/speed', (req,res) => {
+	res.render('speed');
+});
 app.post('/send', (req,res) => {
 	
   
