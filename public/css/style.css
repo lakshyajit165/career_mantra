@@ -1503,7 +1503,7 @@ h6.small-heading {
 /* course page */
 
 .banner-agile-2 {
-    background: url(../images/company.jpeg) no-repeat center;
+    background: url(../images/company.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2295,7 +2295,10 @@ input:checked+.slider-switch:before {
 }
 
 .about-page-2 {
-    background: #f5f5f5;
+    /*background: #f5f5f5;*/
+    background: url('../images/bg11.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /*-- team --*/
