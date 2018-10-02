@@ -37,6 +37,11 @@
   <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
   <!-- //Web-Fonts -->
 
+  <!--Faculty Page-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+ 
+
 </head>
 
 <body>
@@ -317,8 +322,29 @@
 
   <!--lightbox-->
   <script src="public/js/simpleLightbox.js"></script>
+
+  <!--Faculty Page-->
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+   
   <script>
     $('.proj_gallery_grid a').simpleLightbox();
+
+    /*Faculty page*/
+    $(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:1,
+        itemsDesktop:[1000,1],
+        itemsDesktopSmall:[979,1],
+        itemsTablet:[768,1],
+        pagination:true,
+        navigation:false,
+        navigationText:["",""],
+        slideSpeed:1000,
+        singleItem:true,
+        autoPlay:true
+    });
+    });
   </script>  
 </body>
 

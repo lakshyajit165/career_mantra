@@ -1917,75 +1917,72 @@ h6.reque-title {
 /* //course details */
 
 /*Faculties Page CSS*/
-.carousel {
-    margin: 50px auto;
-    padding: 0 70px;
-}
-.carousel .item {
-    color: #999;
-    font-size: 14px;
+.testimonial{
     text-align: center;
-    overflow: hidden;
-    min-height: 290px;
+    padding: 100px 40px 5px;
+    margin-top: 100px;
+    border-top: 5px solid #42a5f5;
+    position: relative;
 }
-.carousel .item .img-box {
-    width: 180px;
-    height: 180px;
-    margin: 0 auto;
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 50%;
-}
-.carousel .img-box img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    border-radius: 50%;
-}
-.carousel .testimonial {
-    padding: 10px 0 10px;
-}
-.carousel .overview {   
-    
-}
-.carousel .overview b {
-    text-transform: uppercase;
-    color: #42a5f5;
-}
-.carousel .carousel-control {
-    width: 40px;
-    height: 40px;
-    margin-top: -20px;
-    top: 50%;
-    background: none;
-}
-.carousel-control i {
-    font-size: 68px;
-    line-height: 42px;
+.testimonial:before{
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     position: absolute;
-    display: inline-block;
-    color: rgba(0, 0, 0, 0.8);
-    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+    top: 20px;
+    left: 20px;
+    font-size: 50px;
+    color: black;
+    opacity: 0.5;
 }
-.carousel .carousel-indicators {
-    bottom: -40px;
+.testimonial .pic{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #42a5f5;
+    position: absolute;
+    top: -80px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
-.carousel-indicators li, .carousel-indicators li.active {
-    width: 10px;
-    height: 10px;
-    margin: 1px 3px;
-    border-radius: 50%;
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
 }
-.carousel-indicators li {   
-    background: #999;
-    border-color: transparent;
-    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+.testimonial .desc{
+    font-size: 14px;
+    color: black;
+    line-height: 25px;
+    margin-bottom: 30px;
+    text-align: justify;
 }
-.carousel-indicators li.active {    
-    background: #555;       
-    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+.testimonial .testimonial-title{
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color: #000000;
+    margin: 0;
 }
-
+.testimonial .post{
+    display: block;
+    font-size: 12px;
+    color: #42a5f5;
+    margin-top: 7px;
+}
+.owl-theme .owl-controls .owl-page span{
+    width: 20px;
+    height: 3px;
+    background: #4b489b;
+}
+@media only screen and (max-width: 479px){
+    .testimonial{ padding: 80px 15px 5px; }
+    .testimonial::before{ top: 10px; }
+    .testimonial .pic{
+        width: 120px;
+        height: 120px;
+        top: -60px;
+    }
+}
 /*-- contact page  --*/
 
 .con-ic i {
